@@ -2,9 +2,17 @@
 	height: 100% !important;
 }
 
+/*@font-face {*/
+/*	font-family: BMYEONSUNG;*/
+/*	src: url('./assets/fonts/BMYEONSUNG.ttf');*/
+/*}*/
+
 @font-face {
-	font-family: BMYEONSUNG;
-	src: url('./assets/fonts/BMYEONSUNG.ttf');
+  font-family: BMYEONSUNG;
+  src: url("./assets/fonts/BMYEONSUNG.woff2") format('woff2'),
+    url("./assets/fonts/BMYEONSUNG.woff") format('woff'),
+    url('./assets/fonts/BMYEONSUNG.ttf');
+  font-display: block;
 }
 
 .BannerVideo {
