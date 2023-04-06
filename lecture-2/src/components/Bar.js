@@ -43,8 +43,8 @@ const BarGraph = styled.div`
     position: absolute;
     left: 0;
     top: 0;
-    // width: ${({width}) => width}%;
-    // transition: width 1.5s ease;
+     // width: ${({width}) => width}%;
+     //transition: width 1.5s ease;
     width: 100%;
     transform: scaleX(${({width}) => width / 100});
     transform-origin: center left;
